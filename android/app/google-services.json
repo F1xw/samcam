@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "501687259188",
+    "project_id": "samcam-4279b",
+    "storage_bucket": "samcam-4279b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501687259188:android:3a43d8d8b0053d4172fa61",
+        "android_client_info": {
+          "package_name": "tech.flowei.samcam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501687259188-mc4itius597luh8k28ljcnsr1jms9ohc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3to-oN0fJttB131LrPtum8nk5tlXspk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501687259188-mc4itius597luh8k28ljcnsr1jms9ohc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
