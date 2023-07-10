@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_mjpeg/flutter_mjpeg.dart';
 import 'dart:math';
-import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
+import 'package:http/http.dart' as http;
 import '../functions/api.dart';
 
 import '../config.dart' as config;
@@ -77,7 +77,7 @@ class _LiveViewState extends State<LiveView> {
                   end: Alignment.bottomRight,
                   colors: <Color>[
                     Theme.of(context).primaryColor,
-                    Theme.of(context).accentColor
+                    Theme.of(context).highlightColor
                   ])),
         ),
       ),
@@ -89,6 +89,7 @@ class _LiveViewState extends State<LiveView> {
           height: 300,
           child: ClipRRect(
             child: Mjpeg(
+              timeout: Duration(seconds: 10),
               isLive: true,
               stream: "https://" +
                   config.apiUrl +

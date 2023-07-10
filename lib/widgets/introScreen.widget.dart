@@ -36,8 +36,11 @@ class IntroScreen extends StatelessWidget {
           )),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          Navigator.of(context).pushReplacement(new MaterialPageRoute(
-              builder: (context) => new EnterAPIKeyScreen()));
+          showTimePicker(
+            context: context,
+            initialTime: TimeOfDay(hour: 7, minute: 15),
+          ); //Navigator.of(context).pushReplacement(new MaterialPageRoute(
+          //builder: (context) => new EnterAPIKeyScreen()));
         },
         child: const Icon(Icons.navigate_next_rounded),
         backgroundColor: Theme.of(context).primaryColor,

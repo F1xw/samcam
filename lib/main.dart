@@ -21,8 +21,8 @@ void main() async {
 
   runApp(SamCam());
 
-  var pManager = PushNotificationsManager();
-  pManager.init();
+  //var pManager = PushNotificationsManager();
+  //pManager.init();
   var uManager = UpdateManager();
   uManager.checkForUpdate();
 }

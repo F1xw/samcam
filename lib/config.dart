@@ -26,17 +26,14 @@ String apiKey = SharedPrefs().apiKey;
 
 const AndroidNotificationDetails channelSpecificsAuslauf =
     AndroidNotificationDetails("1", "Auslauferinnerung",
-        "Benachrichtigungen zur Erinnerung an den Auslauf von Sammy",
         importance: Importance.max, priority: Priority.high, showWhen: false);
 
 const AndroidNotificationDetails channelSpecificsReinigung =
     AndroidNotificationDetails("2", "Reinigungserinnerung",
-        "Benachrichtigungen zur Erinnerung an die Reinigung von Sammys Nagarium",
         importance: Importance.max, priority: Priority.high, showWhen: false);
 
 const AndroidNotificationDetails channelSpecificsFotoGeschpeichert =
     AndroidNotificationDetails("2", "Reinigungserinnerung",
-        "Benachrichtigungen zur Erinnerung an die Reinigung von Sammys Nagarium",
         importance: Importance.low, priority: Priority.high, showWhen: true);
 
 void resetApp() {
